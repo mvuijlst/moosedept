@@ -6,35 +6,7 @@
     <title>Moose Dept.</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
-
-        body {
-            font-family: Roboto, Helvetica, sans-serif;
-            background-color: #272624;
-            color: #ddd;
-            margin: 0 auto;
-            max-width: 50em;
-            padding: 0 10vw
-        }
-
-        h1,
-        h2 {
-            font-family: 'Roboto Slab', Georgia, 'Times New Roman', Times, serif;
-            color: azure;
-        }
-
-      
-        a {
-            color:darkorange;
-            text-decoration: none;
-        }
-
-
-        hr {
-            border: 0;
-            height: 1px;
-            background-color: aliceblue;
-            margin: 2em;
-        }
+        @import url('styles.css');
     </style>
 </head>
 
@@ -43,7 +15,17 @@
     <p>Zet u, drinkt iets. </p>
     <p>'t Was gelijk al een tijdje geleden dat ik gewoon een website had met niets erachter en gewoon html. Dus kijk
         zie. Een mens heeft geen CMS en zever nodig om een website te maken. </p>
-    <hr>
+
+    <h2>Hier te vinden</h2>
+    <ul>
+        <li><a href="gekeken/">Waar ik naar gekeken heb</a>
+            <ul>
+                <li><a href="gekeken/2019gekeken.html">in 2019</a> en</li>
+                <li><a href="gekeken/2020gekeken.html">in 2020</a> tot nog toe</li>
+            </ul>
+        </li>
+    </ul>
+
     <h2>Andere websites</h2>
     <dl>
         <dt><a href="https://blog.zog.org">blog.zog.org</a></dt>
@@ -52,6 +34,7 @@
             toenmalig werk die ooit eens zijn vernietigd terwijl ik thuis zat wegens ziek. Ik ben nog altijd kwaad op
             die kerels. </dd>
     </dl>
+    <footer>&copy; 2020 Michel Vuijlsteke, tralala. Niet dat er iets te copyrighten is maar hey.</footer>
 </body>
 
 </html>
