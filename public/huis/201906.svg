@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 24.1.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
-	 y="0px" viewBox="0 0 361.33 381.2" overflow="visible" xml:space="preserve">
+<svg version="1.1" baseProfile="tiny" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+	 x="0px" y="0px" viewBox="0 0 361.33 381.2" overflow="visible" xml:space="preserve">
 <font horiz-adv-x="2048">
 <!-- Roboto Slab is a trademark of Google. -->
 <!-- Copyright: Copyright 2020 Adobe System Incorporated. All rights reserved. -->
@@ -28,10 +28,7 @@
 <glyph unicode="S" horiz-adv-x="1242" d="M1162,991l-219,0l-38,200C880,1207 843,1221 794,1233C745,1245 694,1251 639,1251C559,1251 497,1234 454,1201C410,1167 388,1123 388,1070C388,1021 411,980 457,949C502,917 581,883 693,848C854,803 976,744 1059,671C1142,598 1183,501 1183,382C1183,257 1134,159 1035,87C936,15 806,-21 645,-21C530,-21 426,-3 333,34C240,71 162,121 100,186l0,304l226,0l31,-207C386,259 426,239 477,224C527,208 583,200 645,200C725,200 786,216 828,249C869,282 890,325 890,380C890,436 870,481 831,515C791,549 721,581 622,611C449,661 319,720 230,789C141,858 97,952 97,1071C97,1189 147,1286 247,1361C347,1436 473,1474 624,1476C736,1476 838,1459 930,1425C1022,1391 1099,1346 1162,1289z"/>
 </font>
 
-	<g id="Layer_4">
-	<rect width="361.33" height="381.2"/>
-</g>
-<g id="lijnen">
+	<g id="lijnen">
 	<polygon fill="none" stroke="#B2B2A8" stroke-width="0.5" stroke-miterlimit="10" points="25.62,4.97 328.75,4.97 316.12,266.29 
 		324.11,374.8 57.2,368.39 28.13,33.87 	"/>
 	<path fill="none" stroke="#B2B2A8" stroke-width="0.5" stroke-miterlimit="10" d="M267.35,4.97c0,43.73-35.45,79.18-79.18,79.18
@@ -186,11 +183,11 @@
 </g>
 <g id="Layer_7">
 	<g>
-		<path fill="#FFFFFF" d="M192.24,260.17l-0.35,0l-6.99,6.99c-0.03,0.14-0.04,0.28-0.06,0.42L192.24,260.17z"/>
-		<path fill="#FFFFFF" d="M199.93,260.17l-14.44,14.44c0,0.01,0,0.01,0.01,0.02c0.03,0.08,0.07,0.15,0.1,0.23l14.68-14.68H199.93z"
-			/>
+		<path fill="#FFFFFF" d="M192.24,260.17h-0.35l-6.99,6.99c-0.03,0.14-0.04,0.28-0.06,0.42L192.24,260.17z"/>
+		<path fill="#FFFFFF" d="M199.93,260.17l-14.44,14.44c0,0.01,0,0.01,0.01,0.02c0.03,0.08,0.07,0.15,0.1,0.23l14.68-14.68h-0.35
+			V260.17z"/>
 		<path fill="#FFFFFF" d="M215.29,244.81v0.36l5.87-5.87c-0.15,0.04-0.31,0.07-0.46,0.1L215.29,244.81z"/>
-		<path fill="#FFFFFF" d="M208.33,260.17l-0.35,0l-19.59,19.59c0.05,0.07,0.1,0.14,0.15,0.21L208.33,260.17z"/>
+		<path fill="#FFFFFF" d="M208.33,260.17h-0.35l-19.59,19.59c0.05,0.07,0.1,0.14,0.15,0.21L208.33,260.17z"/>
 		<path fill="#FFFFFF" d="M215.29,252.86v0.36l18.03-18.03c-0.16,0.04-0.32,0.08-0.48,0.12L215.29,252.86z"/>
 		<path fill="#FFFFFF" d="M224.36,252.19v-0.36l-32.63,32.63c0.05,0.07,0.09,0.14,0.14,0.22L224.36,252.19z"/>
 		<path fill="#FFFFFF" d="M231.35,244.84l0.35,0.01l9.56-9.56c-0.09-0.03-0.17-0.06-0.26-0.09L231.35,244.84z"/>
@@ -234,9 +231,9 @@
 		<polygon fill="#FFFFFF" points="246.83,152.26 228.59,134.38 228.59,134.73 246.47,152.26 		"/>
 		<path fill="#FFFFFF" d="M213.61,119.71l-5.12-5.01c-0.09,0.03-0.18,0.05-0.27,0.08l5.03,4.93H213.61z"/>
 		<polygon fill="#FFFFFF" points="238.19,152.26 224.28,138.63 223.92,138.63 237.83,152.26 		"/>
-		<path fill="#FFFFFF" d="M204.97,119.71l-3.66-3.59c-0.11,0.01-0.21,0.02-0.32,0.04l3.63,3.56H204.97z"/>
-		<path fill="#FFFFFF" d="M244.96,167.72l0.93,0.91c0.03-0.09,0.06-0.18,0.08-0.27l-0.66-0.65H244.96z"/>
-		<path fill="#FFFFFF" d="M203.85,127.09l-10.77-10.55c-0.12,0-0.24,0-0.35,0l11.12,10.9V127.09z"/>
+		<path fill="#FFFFFF" d="M204.97,119.71l-3.66-3.59c-0.11,0.01-0.21,0.02-0.32,0.04l3.63,3.56h0.35V119.71z"/>
+		<path fill="#FFFFFF" d="M244.96,167.72l0.93,0.91c0.03-0.09,0.06-0.18,0.08-0.27l-0.66-0.65L244.96,167.72L244.96,167.72z"/>
+		<path fill="#FFFFFF" d="M203.85,127.09l-10.77-10.55c-0.12,0-0.24,0-0.35,0l11.12,10.9L203.85,127.09L203.85,127.09z"/>
 		<polygon fill="#FFFFFF" points="229.54,152.26 215.63,138.63 215.27,138.63 229.19,152.26 		"/>
 		<polygon fill="#FFFFFF" points="195.02,127.25 203.85,135.91 203.85,135.56 195.02,126.9 		"/>
 		<path fill="#FFFFFF" d="M187.68,119.71l-3.17-3.11c-0.12,0-0.23,0-0.35,0.01l3.16,3.1H187.68z"/>
@@ -247,7 +244,7 @@
 		<path fill="#FFFFFF" d="M227.68,167.72l13.54,13.26c0.03-0.08,0.07-0.17,0.1-0.25l-13.28-13.01H227.68z"/>
 		<polygon fill="#FFFFFF" points="221.19,161.01 212.63,152.62 212.63,152.97 221.19,161.36 		"/>
 		<polygon fill="#FFFFFF" points="203.61,152.26 189.7,138.63 189.34,138.63 203.25,152.26 		"/>
-		<path fill="#FFFFFF" d="M170.28,119.71h0.11l-2.02-1.98c-0.12,0-0.23,0.01-0.35,0.01l2.27,2.22V119.71z"/>
+		<path fill="#FFFFFF" d="M170.28,119.71h0.11l-2.02-1.98c-0.12,0-0.23,0.01-0.35,0.01l2.27,2.22L170.28,119.71L170.28,119.71z"/>
 		<path fill="#FFFFFF" d="M212.63,161.44l26.22,25.69c0.03-0.09,0.06-0.17,0.09-0.26l-26.31-25.78V161.44z"/>
 		<path fill="#FFFFFF" d="M157.34,115.74l12.94,12.68v-0.35l-12.36-12.11C157.73,115.89,157.54,115.82,157.34,115.74z"/>
 		<polygon fill="#FFFFFF" points="226.42,183.07 210.75,167.72 210.39,167.72 226.06,183.07 		"/>
@@ -296,7 +293,7 @@
 		<polygon fill="#FFFFFF" points="148.62,183.07 132.95,167.72 132.59,167.72 148.27,183.07 		"/>
 		<path fill="#FFFFFF" d="M205.83,239.12l-8.21-8.04h-0.36l8.33,8.16C205.67,239.2,205.75,239.16,205.83,239.12z"/>
 		<polygon fill="#FFFFFF" points="179.28,213.11 157.36,191.64 157.36,191.99 179.28,213.46 		"/>
-		<path fill="#FFFFFF" d="M188.62,231.08l11.33,11.1c0.08-0.04,0.16-0.08,0.23-0.12l-11.21-10.98H188.62z"/>
+		<path fill="#FFFFFF" d="M188.62,231.08l11.33,11.1c0.08-0.04,0.16-0.08,0.23-0.12l-11.21-10.98L188.62,231.08L188.62,231.08z"/>
 		<polygon fill="#FFFFFF" points="179.28,221.58 170.15,212.64 170.15,212.99 179.28,221.93 		"/>
 		<polygon fill="#FFFFFF" points="155.4,198.53 169.31,212.16 169.67,212.16 155.76,198.53 		"/>
 		<polygon fill="#FFFFFF" points="123.95,167.72 139.62,183.07 139.98,183.07 124.31,167.72 		"/>
@@ -306,8 +303,8 @@
 		<polygon fill="#FFFFFF" points="161.03,212.16 147.12,198.53 146.76,198.53 160.67,212.16 		"/>
 		<polygon fill="#FFFFFF" points="187.02,246.1 170.15,229.58 170.15,229.93 187.02,246.45 		"/>
 		<polygon fill="#FFFFFF" points="152.38,212.16 138.47,198.53 138.11,198.53 152.03,212.16 		"/>
-		<path fill="#FFFFFF" d="M129.09,189.34l-17.31-16.96c-0.05,0.07-0.1,0.14-0.14,0.21l17.46,17.1V189.34z"/>
-		<path fill="#FFFFFF" d="M162.69,231.08l19.94,19.54c0.09-0.03,0.18-0.05,0.28-0.08l-19.86-19.46H162.69z"/>
+		<path fill="#FFFFFF" d="M129.09,189.34l-17.31-16.96c-0.05,0.07-0.1,0.14-0.14,0.21l17.46,17.1v-0.35H129.09z"/>
+		<path fill="#FFFFFF" d="M162.69,231.08l19.94,19.54c0.09-0.03,0.18-0.05,0.28-0.08l-19.86-19.46L162.69,231.08L162.69,231.08z"/>
 		<path fill="#FFFFFF" d="M108.3,177.79l20.8,20.38v-0.35l-20.67-20.25C108.38,177.64,108.34,177.71,108.3,177.79z"/>
 		<polygon fill="#FFFFFF" points="151.24,219.51 129.83,198.53 129.47,198.53 151.24,219.86 		"/>
 		<path fill="#FFFFFF" d="M151.67,228.75c0.31,0.17,0.62,0.35,0.91,0.54c0.01,0.01,0.02,0.01,0.03,0.02l-46.88-45.93
@@ -319,11 +316,13 @@
 		<path fill="#FFFFFF" d="M240.05,128.68L221.9,110.9c-0.14-0.02-0.28-0.04-0.42-0.06l18.89,18.51
 			C240.27,129.12,240.16,128.9,240.05,128.68z"/>
 	</g>
-	
-		<text transform="matrix(1 0 0 1 177.184 177.4603)" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'RobotoSlab-Bold'" font-size="10px">O</text>
 	<text transform="matrix(1 0 0 1 177.184 177.4603)" fill="#FFFFFF" font-family="'RobotoSlab-Bold'" font-size="10px">O</text>
 	
-		<text transform="matrix(1 0 0 1 218.5175 279.9388)" fill="#FFFFFF" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'RobotoSlab-Bold'" font-size="10px">S</text>
+		<text transform="matrix(1 0 0 1 177.184 177.4603)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'RobotoSlab-Bold'" font-size="10px">O</text>
+	<text transform="matrix(1 0 0 1 177.184 177.4603)" fill="#FFFFFF" font-family="'RobotoSlab-Bold'" font-size="10px">O</text>
+	<text transform="matrix(1 0 0 1 218.5175 279.9388)" fill="#FFFFFF" font-family="'RobotoSlab-Bold'" font-size="10px">S</text>
+	
+		<text transform="matrix(1 0 0 1 218.5175 279.9388)" fill="none" stroke="#000000" stroke-width="2" stroke-miterlimit="10" font-family="'RobotoSlab-Bold'" font-size="10px">S</text>
 	<text transform="matrix(1 0 0 1 218.5175 279.9388)" fill="#FFFFFF" font-family="'RobotoSlab-Bold'" font-size="10px">S</text>
 </g>
 </svg>
