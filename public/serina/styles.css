@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700|Lora:400');
+
+html {
+    font-size: min(max(1rem, 4vw), 22px);
+    width: min(90vw, 800px);
+    margin: 0 auto;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    background-color: #252530;
+    font-family: 'Lora', serif;
+    font-weight: 400;
+    line-height: 1.65;
+    color: #ddd;
+}
+
+p {
+    margin-bottom: 1.15rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 2.75rem 0 1.05rem;
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+h1 {
+    margin-top: 0;
+    font-size: 1.802em;
+}
+
+h2 {
+    font-size: 1.602em;
+}
+
+h3 {
+    font-size: 1.424em;
+}
+
+h4 {
+    font-size: 1.266em;
+}
+
+h5 {
+    font-size: 1.125em;
+}
+
+small,
+.text_small {
+    font-size: 0.889em;
+}
+
+a {
+    color: #aaa;
+    text-decoration: none;
+    transition: background-color .5s
+}
+
+a:hover, a.active {
+    color: #fff;
+    background-color: #606065;
+}
+
+figcaption {
+    font-size: 0.8em;
+}
