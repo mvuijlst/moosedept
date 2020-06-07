@@ -2,11 +2,11 @@
 
 html {
     font-size: min(max(1rem, 4vw), 22px);
-    width: min(90vw, 800px);
+    width: min(95vw, 1200px);
     margin: 0 auto;
 }
 
-img {
+img, video {
     max-width: 100%;
 }
 
@@ -17,7 +17,34 @@ body {
     font-weight: 400;
     line-height: 1.65;
     color: #ddd;
+    display: flex;
 }
+
+nav {
+    font-size: .7em;
+    width: 22em;
+    position: fixed;
+    margin-top: 4em;
+}
+
+nav ul {
+    padding-inline-start: 0;
+}
+
+nav li {
+    display: block;
+    margin-bottom: 0.4em;
+}
+
+nav li li {
+    margin-left: 1em;
+}
+
+main {
+    width: min(90vw, 900px);
+    margin-left: 16em;
+}
+
 
 p {
     margin-bottom: 1.15rem;
@@ -63,14 +90,25 @@ small,
 a {
     color: #aaa;
     text-decoration: none;
-    transition: background-color .5s
+    transition: background-color .5s;
+    padding: 0.3em;
 }
 
-a:hover, a.active {
+a.parent {
+    color: #fff;
+}
+
+a:hover,
+a.active {
     color: #fff;
     background-color: #606065;
 }
 
 figcaption {
     font-size: 0.8em;
+}
+
+.asterism {
+    text-align: center;
+    font-size: 1.2em;
 }
