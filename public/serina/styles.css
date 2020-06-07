@@ -34,6 +34,7 @@ nav ul {
 nav li {
     display: block;
     margin-bottom: 0.4em;
+    text-indent: -0.25em;
 }
 
 nav li li {
@@ -87,11 +88,14 @@ small,
     font-size: 0.889em;
 }
 
+nav a {
+    padding: 0.3em;
+}
+
 a {
     color: #aaa;
     text-decoration: none;
     transition: background-color .5s;
-    padding: 0.3em;
 }
 
 a.parent {
