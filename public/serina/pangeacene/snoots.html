@@ -93,6 +93,15 @@
                 left them color blind</strong>, and their eyesight remains secondary in importance to their especially
             <strong>keen sense of smell </strong>which both leads them to food and alerts them to predators.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

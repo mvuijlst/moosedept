@@ -202,6 +202,15 @@
             in line to ensure the trees can recover their losses from the winter season and<strong> enough of a reserve
                 to ensure the survival of the community through the following winter. </strong> </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

@@ -204,6 +204,15 @@
                 digestive systems, emerging from their calcium shelters at night and extending feathery fan-shaped
                 radulas into the water column to capture microscoptic plankton.</strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

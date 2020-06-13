@@ -484,6 +484,15 @@
             <strong>it is normally treated very sympathetically and provided for in the manner of a juvenile until it
                 either recovers or succumbs to whatever is ailing it. </strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

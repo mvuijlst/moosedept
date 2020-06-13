@@ -251,6 +251,15 @@
             close co-evolution with its insect partners, <strong>it cannot effectively distribute its young on its own
                 any longer, and is effectively castrated when the last chimera ants vacate its trunk.</strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

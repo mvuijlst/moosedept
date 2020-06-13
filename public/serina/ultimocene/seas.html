@@ -177,6 +177,15 @@
         wash ashore, stranding its inhabitants, many last for years without ever washing ashore, <strong>allowing this
             novel ecosystem in miniature to continue to flourish.</strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

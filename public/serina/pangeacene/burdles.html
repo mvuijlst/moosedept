@@ -107,6 +107,15 @@
             vulnerable to airborne threats but still easy pickings for aquatic hunters, ride just on top, to help
             prevent an ambush from below. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

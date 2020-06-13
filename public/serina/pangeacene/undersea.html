@@ -163,6 +163,15 @@
             social, and with acute eyesight, they compensate for the loss of their hearing with exquisitely vibrant
             markings, making them among the most brilliant of all "fish" to be found on the savannah.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

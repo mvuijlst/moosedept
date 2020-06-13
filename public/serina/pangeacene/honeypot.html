@@ -110,6 +110,15 @@
             <strong>the sting of this form is especially intense, resulting in itchy red welts wherever unprotected skin
                 comes into contact with its foliage.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

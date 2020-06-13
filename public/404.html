@@ -16,5 +16,14 @@
     <h1>ALLES IS KAPOT!!!</h1>
     <p>Ja 't is om zeep. Er stond hier iets dat er nu niet meer staat, of ge hebt iets verkeerd getypt of zoiets. </p>
     <footer>&copy; 2020 Michel Vuijlsteke, tralala. Niet dat er iets te copyrighten is maar hey.</footer>
-  </body>
+      <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
+</body>
 </html>

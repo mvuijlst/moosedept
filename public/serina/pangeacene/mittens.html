@@ -146,6 +146,15 @@
             times over the course of incubation in an effort to prevent their scent from becoming too strong and
             attracting predators to any given location.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

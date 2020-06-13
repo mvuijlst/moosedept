@@ -139,6 +139,15 @@
                 order of things is still bound to be disturbed.</strong></p>
         <p><strong>Intelligence becomes a central theme in the Ultimocene.</strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

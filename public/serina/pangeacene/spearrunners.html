@@ -94,6 +94,15 @@
             well before adulthood. This has been a reversion from the extremely rapid development of the ancestral
             perching bird to a state more like the dinosaurs from which they descended.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

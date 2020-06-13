@@ -122,6 +122,15 @@
             their common name - <strong>by removing themselves from their burrows and territory, their mates and
                 developing offspring will have more resources for themselves.</strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

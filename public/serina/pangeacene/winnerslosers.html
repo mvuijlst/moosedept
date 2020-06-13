@@ -151,6 +151,15 @@
             the blink of an eye, <strong>while life for the more fortunate goes on as we come to the end of the
                 Pangeacene.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

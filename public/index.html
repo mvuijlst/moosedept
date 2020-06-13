@@ -51,6 +51,15 @@
             ik gestopt met updaten. Eén dezer haal ik het wel eens in. Dan. </dd>
     </dl>
     <footer>&copy; 2020 Michel Vuijlsteke, tralala. Niet dat er iets te copyrighten is maar hey.</footer>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

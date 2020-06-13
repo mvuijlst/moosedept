@@ -165,6 +165,15 @@
             symbiotes and die out, to be replaced by the rightful and benevolent rulers of the forest, the gluesaps.
         </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

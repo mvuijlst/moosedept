@@ -111,6 +111,15 @@
             approximately 240 million years after the very first birds were introduced, <strong>a new tier of bird sits
                 at the threshold of something potentially groundbreaking.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

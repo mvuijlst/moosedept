@@ -138,6 +138,15 @@
                 recolonize the regions scraped clean at the end of the Thermocene.</strong></p>
         <p>The <strong>Pangeacene</strong> had arrived. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

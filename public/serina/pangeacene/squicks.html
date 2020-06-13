@@ -122,6 +122,15 @@
             also one of the less colorful species, mostly black with white on the head and light speckles on its
             underside. Diurnal species are often brighter, with bold markings on the head and wings.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

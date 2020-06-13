@@ -191,6 +191,15 @@
                 bird that soars the heavens.</strong></p>
         <p>Few other creatures on Serina, avian or otherwise, are as splendidly strange as the ornimorphs.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

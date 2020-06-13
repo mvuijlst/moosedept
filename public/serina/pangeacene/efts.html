@@ -183,6 +183,15 @@
             true saltwater fishes, which remain as diverse in the Pangeacene as previously, <strong>they do not seem set
                 to overtake them in this environment any time soon. </strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

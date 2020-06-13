@@ -23,7 +23,7 @@
         </ul>
     </nav>
     <main>
-        <h1>Epilogie</h1>
+        <h1>Epilogue</h1>
         <p>In 2017 I decided Serina would end after 400 million years. This year I re-evaluated and determined that this
             was too long for the ideas that were established. <strong>Serina now will meet its icy fate not long after
                 300 million years.</strong></p>
@@ -206,6 +206,15 @@
             <p>As I leave the community, I ask just one thing from anyone who loved Serina over the years. Take the
                 torch from me, and go make something just as cool. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

@@ -226,6 +226,15 @@
             one's viewpoint. Of no question, however, is that the changeling, so seemingly plain in adulthood but
             remarkable in infancy, is surely one of Serina's most fascinatingly derived birds.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

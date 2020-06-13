@@ -140,6 +140,15 @@
             nomadic flocks only when several years old. Maturity in most of the giants is fairly slow among birds, with
             adult size and sexual maturity not attained for six to ten years.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

@@ -99,6 +99,15 @@
             primitive, is among the most advanced of all canitheres, and it is probable that mertribs are the most
             intelligent representatives of their group. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

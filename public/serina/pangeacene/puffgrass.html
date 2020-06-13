@@ -114,6 +114,15 @@
             immediately to the surrounding sediment, where they provide food for microorganisms which in turn feed
             invertebrates, small fishes and eventually birds.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

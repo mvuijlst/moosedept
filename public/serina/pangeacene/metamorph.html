@@ -203,6 +203,15 @@
             many more would survive. Vivas were the first birds to develop live birth, and mastered it many tens of
             millions of years ago.<strong> It would be the metamorphs, though, which perfected the process.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

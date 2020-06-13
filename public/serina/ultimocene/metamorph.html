@@ -130,6 +130,15 @@
             cilia on their bodies and instead relying on a single well-developed lung. </p>
         <p>The world of birds becomes even stranger in the Ultimocene.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

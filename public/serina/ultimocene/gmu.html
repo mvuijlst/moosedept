@@ -137,6 +137,15 @@
         <p>The gmu is so cautious because those that are not don't survive for long.</p>
         <p>Not in these forests.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

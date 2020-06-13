@@ -115,6 +115,15 @@
             with the bamboo ant-trees which <strong>will experience a dramatic decline of diversity across most of
                 Serina by the end of the Thermocene.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

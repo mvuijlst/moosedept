@@ -85,6 +85,15 @@
                 stronger than those of Earth</strong>, and richly diverse floodplain ecosystems occur abundantly along
             the sea coasts as a result of a daily reliable surge of water inland. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

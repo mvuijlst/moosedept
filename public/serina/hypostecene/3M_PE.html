@@ -82,6 +82,15 @@
             of venomous stings at this time has encouraged an equally great explosion in the numbers of insectivorous
             canaries which now travel in great flocks in pursuit of this new food source.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

@@ -152,6 +152,15 @@
             and purposes, it resembles something like what the bludgebird once was, a very long time ago - and yet
             under that seemingly mundane outward appearance, it is a vastly more complicated creature. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

@@ -50,7 +50,7 @@
             all tied together by their mouth-brooding behavior. By incubating their single large eggs in their throat
             pouches rather than on land, <strong>all birdwhales have cut their ties to the shore, freeing some to become
                 the largest birds ever to live.</strong></p>
-        <figure> <img src="images/whalebird_by_sheather888-darqurh.png" style="great blue blorca" />
+        <figure> <img src="images/whalebird_by_sheather888-darqurh.png" alt="great blue blorca" />
             <figcaption>The <strong>great blue blorca</strong>, which feeds on plankton in the cold northern and
                 southern seas, is one of the largest filter-feeding birdwhales, just over fifty feet in length.
             </figcaption>
@@ -80,6 +80,15 @@
 
     </main>
 
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

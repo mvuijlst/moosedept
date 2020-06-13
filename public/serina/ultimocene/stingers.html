@@ -261,6 +261,15 @@
                 directly preying upon them, the birds and other creatures prevent the billion-stingers from totally
                 toppling their ecosystems.</strong> </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

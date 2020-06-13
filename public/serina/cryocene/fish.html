@@ -11,14 +11,14 @@
 <body>
     <nav>
         <ul>
-           <li><a href="../index.html">The World of Serina</a></li>
-           <li><a href="../life.html">Life Comes to Serina</a></li>
-           <li><a href="../hypostecene/index.html">The Hypostecene: 0 - 10 million years</a></li>
-           <li><a href="../tempuscene/index.html">The Tempuscene: 11 - 50 million years</a></li>
-           <li><a class="parent" href="index.html">The Cryocene: 50 - 75 million years</a>
-               <ul>
-                   <li><a class="parent" href="vivas.html">50 Million Years PE</a>
-                       <ul>
+            <li><a href="../index.html">The World of Serina</a></li>
+            <li><a href="../life.html">Life Comes to Serina</a></li>
+            <li><a href="../hypostecene/index.html">The Hypostecene: 0 - 10 million years</a></li>
+            <li><a href="../tempuscene/index.html">The Tempuscene: 11 - 50 million years</a></li>
+            <li><a class="parent" href="index.html">The Cryocene: 50 - 75 million years</a>
+                <ul>
+                    <li><a class="parent" href="vivas.html">50 Million Years PE</a>
+                        <ul>
                             <li><a href="vivas.html">Diversity of the Vivas</a></li>
                             <li><a class="active" href="fish.html">Fish out of Water: Mudwickets and Eelsnakes</a></li>
                             <li><a href="desertflora.html">Desert Flora</a></li>
@@ -130,7 +130,15 @@
         </figure>
 
     </main>
-
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

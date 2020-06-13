@@ -242,6 +242,15 @@
             produce up to one hundred offspring at a time, they do not reach reproductive age until between fifty and
             seventy five years of age.</p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

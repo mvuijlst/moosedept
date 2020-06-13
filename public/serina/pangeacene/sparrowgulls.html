@@ -128,6 +128,15 @@
             their ancestral forms. <strong>The plain, but persisting, shell-egged birds were reclaiming the world that
                 could never have existed in the first place without them.</strong></p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

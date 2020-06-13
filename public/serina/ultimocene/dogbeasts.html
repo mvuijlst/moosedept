@@ -236,6 +236,15 @@
                 food is transferred from parent to offspring, or partner to mate by locking their lips</strong>, after
             which the receiver produces a suction to pull pre-chewed food out of the provider's mouth. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

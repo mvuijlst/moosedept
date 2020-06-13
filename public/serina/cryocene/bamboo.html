@@ -48,7 +48,7 @@
             up entire forest communities in some subtropical equatorial habitats. Fast-growing, hardy and adaptable
             already in its ancestral form, it has begun to evolve in several new directions by fifty million years PE.
         </p>
-        <figure> <img src="images/TlhcAEO.png" style="four groups of bamboo" /> </figure>
+        <figure> <img src="images/TlhcAEO.png" alt="four groups of bamboo" /> </figure>
         <p>Illustrated above are examples of the growth habits of four groups of bamboo present on Serina by this time,
             labeled<strong> A, B, C,</strong> and <strong>D</strong>. <strong>A is the ancestral plant from which B, C, and D descend</strong> and
             grows individual bamboo canes directly from a large underground rhizome, which can spread almost
@@ -153,6 +153,15 @@
             may spend decades biding their time in the shade before emerging to take their place in the canopy. </p>
     </main>
 
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>

@@ -115,6 +115,15 @@
         <p>The world of Serina will soon be a very different place, though for now familiar life clings to their old
             ways in the increasingly small patches where the forests that formerly dominated the moon still thrive. </p>
     </main>
+    <script>
+        for (let img of document.getElementsByTagName('img')) {
+            let a = document.createElement('a');
+            let parent = img.parentElement;
+            a.href = img.src;
+            a.appendChild(img);
+            parent.prepend(a);
+        }
+    </script>
 </body>
 
 </html>
