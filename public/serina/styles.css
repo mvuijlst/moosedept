@@ -150,11 +150,12 @@ nav::-webkit-scrollbar-thumb {
         height: auto;
         overflow: hidden;
         margin-top: 1em;
+        border: 0;
     }
 
     main {
         margin-left: 0;
-        padding-top: 2.5em;
+        padding-top: 3em;
     }
 
 
@@ -182,7 +183,8 @@ nav::-webkit-scrollbar-thumb {
          display: block;
          width: 33px;
          height: 4px;
-         margin-bottom: 5px;
+         margin-top: 5px;
+         margin-left: 3px;
          position: relative;
 
          background: #cdcdcd;
@@ -224,8 +226,8 @@ nav::-webkit-scrollbar-thumb {
          position: fixed;
          width: 100vw;
          margin: -100px 0 0 -50px;
-         padding: 50px;
-         padding-top: 125px;
+         padding: 70px;
+         padding-top: 150px;
 
          background: #202025;
          list-style-type: none;
@@ -246,6 +248,8 @@ nav::-webkit-scrollbar-thumb {
          left: 0;
          background-color: #202025;
          width: 100%;
+         font-size: 1.2em;
+         overflow: auto;
      }
 
      #menuToggle input:checked~ul li {

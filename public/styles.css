@@ -36,3 +36,20 @@ footer {
     font-size: 0.8em;
     color: #aaa
 }
+
+.construction {
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+    height: 2.5em;
+    line-height: 2.5em;
+    background-image: repeating-linear-gradient(-45deg, #ffe000 0px 20px, black 20px 40px);
+    border-radius: 5px;
+    color: white;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: .8em;
+    text-transform: uppercase;
+    text-shadow: 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000, 0 0 3px #000000;
+    margin: 1.5em;
+}
