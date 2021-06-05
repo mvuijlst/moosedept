@@ -6,6 +6,7 @@ body {
     max-width: 50em;
     padding: 0 10vw;
     font-size: 16px;
+    line-height: 150%;
 }
 
 h1,
@@ -39,4 +40,8 @@ footer {
 
 li {
     line-height: 1.8em;
+}
+
+dt {
+    margin-top: 1em;
 }
