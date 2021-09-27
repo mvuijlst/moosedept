@@ -16,7 +16,7 @@ function startTime() {
     var pensionAge = 67;
 
     //trouwdatum
-    var partyDate = new Date(2021, 8, 25, 18, 0);
+    var partyDate = new Date(2021, 8, 25, 17, 30);
 
     var now = new Date();
     var yy = now.getFullYear();
@@ -34,25 +34,19 @@ function startTime() {
     var endOfYear = new Date(yy + 1, 1, 1, 0, 0, 0, 0) - 1;
     var pensionDate = new Date(birthDate.getFullYear() + pensionAge, birthDate.getMonth(), birthDate.getDate());
 
-    $('#now').html('Het is ' + fuzzyTime(h, m) + ' op ' + dateFormat(now) + '.<br/> Het trouwfeest van Sandra &amp; Michel begint op zaterdag 25 september om 18u.');
-    makeBar('milliseconds2', ' ', 0, 1000, ms, '', '', 'ms', 'square');
-    makeBar('seconds', ' ', 0, toMs(0, 1), toMs(0, 0, s, ms), '', '', 's.ms', 'none');
-    makeBar('minutes', ' ', 0, toMs(1, 0), toMs(0, m, s, ms), '', '', 'm:s', 'none');
-    if (dateFormat(now) === dateFormat(partyDate)) {
-        makeBar('day', ' ', toMs(0, 0), toMs(23, 30), toMs(h, m, s, ms), '', '', 'h:m:s', 'none');
+    if (now > partyDate) { 
+        $('#now').html('Het trouwfeest van Sandra en Michel begon op zaterdag 25 september 2021 rond 17u30.') 
     } else {
-        makeBar('day', ' ', toMs(0, 0), toMs(24, 0), toMs(h, m, s, ms), '', '', 'percentageleft', 'none');
+        $('#now').html('Het is ' + fuzzyTime(h, m) + ' op ' + dateFormat(now) + '.<br/> Het trouwfeest van Sandra &amp; Michel begint op zaterdag 25 september vanaf pakweg 17u30.');
+        makeBar('milliseconds2', ' ', 0, 1000, ms, '', '', 'ms', 'square');
+        makeBar('seconds', ' ', 0, toMs(0, 1), toMs(0, 0, s, ms), '', '', 's.ms', 'none');
+        makeBar('minutes', ' ', 0, toMs(1, 0), toMs(0, m, s, ms), '', '', 'm:s', 'none');
+        if (dateFormat(now) === dateFormat(partyDate)) {
+            makeBar('day', ' ', toMs(0, 0), toMs(17, 30), toMs(h, m, s, ms), '', '', 'h:m:s', 'none');
+        } else {
+            makeBar('day', ' ', toMs(0, 0), toMs(24, 0), toMs(h, m, s, ms), '', '', 'percentageleft', 'none');
+        }
     }
-
-    /*
-        als niet vandaag
-            nog x% van deze dag en dan is het binnen x dagen / overmorgen / morgen
-        als vandaag
-            nog x uur en y minuten
-    
-    */
-    
-
 }
 
 function hideBar(id) {
@@ -149,6 +143,7 @@ function formatDoneLabel(format, end, start, now, precision) {
             }
             donelabel += ' ' + s + ' ';
             donelabel += checkPlural('seconde|seconden', s);
+            donelabel += ' en we beginnen er ongeveer aan!';
             break;
         case 'm:s':
             m = parseInt(ms / (60 * 1000));
@@ -169,9 +164,9 @@ function formatDoneLabel(format, end, start, now, precision) {
             thisday = new Date();
             partyDate = new Date(2021, 8, 25, 18, 0);
             thisday = thisday.getDate();
-            if (thisday < partyDate.getDate()-2) {
+            if (thisday < partyDate.getDate()) {
                 donelabel += 'dan nog ';
-                thisday = partyDate.getDate() - thisday - 1;
+                thisday = partyDate.getDate() - thisday;
                 donelabel += thisday;
                 donelabel += '  keer slapen';
             }
